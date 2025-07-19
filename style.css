@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.bg-gray { background-color: #808080; }
+.bg-lightgray { background-color: #aaa; }
+.text-white { color: white; }
+.text-yellow { color: yellow; }
+
+.p-10 { padding: 10px; }
+.p-20 { padding: 20px; }
+.mt-10 { margin-top: 10px; }
+.mt-20 { margin-top: 20px; }
+.mt-40 { margin-top: 40px; }
+.ml-30 { margin-left: 30px; }
+.gap-10 > * + * { margin-left: 10px; }
+.gap-40 > * + * { margin-left: 40px; }
+
+.text-center { text-align: center; }
+.font-bold { font-weight: bold; }
+.font-light { font-weight: 300; }
+.font-semibold { font-weight: 600; }
+
+.font-fam{
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.text-xxl { font-size: 32px; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.center {
+  justify-content: center;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.img-profile {
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%);
+}
+.skill-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.vh50{
+    height:50vh;
+}
